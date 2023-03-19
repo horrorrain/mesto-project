@@ -1,0 +1,14 @@
+.profile__card {
+  margin: 0;
+  display: flex;
+  max-width: 480px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 480px) {
+  .profile__card {
+    justify-content: center;
+    padding-top: 26px;
+  }
+
+}

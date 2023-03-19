@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Mesto</title>
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <div class="header__logo"></div>
+    </header>
+    <main class="content">
+      <section class="profile">
+        <img class="profile__avatar" src="./images/avatar-kusto.jpg" alt="Жак-Ив Кусто">
+          <div class="profile__card">
+            <h1 class="profile__name">Жак-Ив Кусто</h1>
+            <button class="profile__edit" type="button" title="Редактировать профиль"></button>
+            <p class="profile__info">Исследователь океана</p>
+          </div>
+          <button class="profile__add" type="button" title="Добавить карточку"></button>
+      </section>
+      <section class="elements">
+        <ul class="elements__grid">
+          <li class="elements__card">
+            <img class="elements__image" src="./images/vilnus.jpg" alt="Вильнус">
+            <div class="elements__description">
+              <h2 class="elements__title">Вильнюс</h2>
+              <button class="elements__like-button" type="button" title=""></button>
+            </div>
+          </li>
+          <li class="elements__card">
+            <img class="elements__image" src="./images/ufa.jpg" alt="Уфа">
+            <div class="elements__description">
+              <h2 class="elements__title">Уфа</h2>
+              <button class="elements__like-button" type="button" title=""></button>
+            </div>
+          </li>
+          <li class="elements__card">
+            <img class="elements__image" src="./images/tver.jpg" alt="Тверь">
+            <div class="elements__description">
+              <h2 class="elements__title">Тверь</h2>
+              <button class="elements__like-button" type="button" title=""></button>
+            </div>
+          </li>
+          <li class="elements__card">
+            <img class="elements__image" src="./images/dagestan.jpg" alt="Дагестан">
+            <div class="elements__description">
+              <h2 class="elements__title">Дагестан</h2>
+              <button class="elements__like-button" type="button" title=""></button>
+            </div>
+          </li>
+          <li class="elements__card">
+            <img class="elements__image" src="./images/fuji.jpg" alt="Фуджи">
+            <div class="elements__description">
+              <h2 class="elements__title">Фуджи</h2>
+              <button class="elements__like-button" type="button" title=""></button>
+            </div>
+          </li>
+          <li class="elements__card">
+            <img class="elements__image" src="./images/ulyanovsk.jpg" alt="Ульяновск">
+            <div class="elements__description">
+              <h2 class="elements__title">Ульяновск</h2>
+              <button class="elements__like-button" type="button" title=""></button>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__copyright">&copy; 2023 Mesto Russia</p>
+    </footer>
+  </div>
+  <section class="popup">
+    <div class="popup__container">
+      <button class="popup__close" type="button"></button>
+      <h3 class="popup__title">Редактировать профиль</h3>
+      <form class="popup__form" name="" action="#">
+        <fieldset class="popup__input">
+          <input class="popup__input-data" name="username" value="Жак-Ив Кусто" placeholder="Жак-Ив Кусто">
+          <input class="popup__input-data" name="about" value="Исследователь океана" placeholder="Исследователь океана">
+          <button class="popup__save" type="submit">Сохранить</button>
+        </fieldset>
+      </form>
+    </div>
+  </section>
+</body>
+</html>

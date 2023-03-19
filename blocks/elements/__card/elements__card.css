@@ -1,0 +1,13 @@
+.elements__card {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  color: black;
+  width: 282px;
+  /* z-index: 1; */
+}
