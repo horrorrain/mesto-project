@@ -3,6 +3,7 @@
   line-height: 21.7px;
   font-size: 18px;
   font-weight: 400;
+  max-width: 336px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -12,5 +13,7 @@
   .profile__info {
     line-height: 17px;
     font-size: 14px;
+    max-width: 282px;
+    text-align: center;
   }
 }

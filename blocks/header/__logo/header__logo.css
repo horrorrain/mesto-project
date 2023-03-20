@@ -1,20 +1,15 @@
 .header__logo {
   background-image: url('../../../images//mesto-logo.svg');
   width: 142px;
-  height: 33px;
+  min-height: 33px;
   background-size: contain;
   background-repeat: no-repeat;
-  transition: opacity 0.5s ease-in-out;
-  cursor: pointer;
 }
 
 @media (max-width: 680px) {
   .header__logo {
     width: 104px;
-    height: 25px;
+    min-height: 25px;
   }
 }
 
-.header__logo:hover {
-  opacity: .6;
-}

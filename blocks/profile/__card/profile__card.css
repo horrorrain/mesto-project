@@ -1,14 +1,18 @@
 .profile__card {
   margin: 0;
-  display: flex;
-  max-width: 480px;
-  flex-wrap: wrap;
+  max-width: 546px;
+  display: grid;
+  grid-template-columns: 294px 1fr;
+  gap: 16px;
+  flex-grow: 1;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1023px) {
   .profile__card {
-    justify-content: center;
-    padding-top: 26px;
+    grid-template-columns: max-content 1fr;
+    padding-top: 23px;
+    max-width: 282px;
+    gap: 14px 10px;
   }
 
 }
